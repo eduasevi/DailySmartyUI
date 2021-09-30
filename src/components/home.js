@@ -3,14 +3,14 @@ import React, { Component } from "react";
 import Logo from "./logo";
 import SearchBar from "./searchBar";
 import RecentPosts from "./recentPosts";
-import { connect, Connect } from "react-redux";
+import { connect } from "react-redux";
 import * as actions from "../actions";
 
 class Home extends Component {
-  handleSearchBarSubmit = function (query) {
-    this.props.fetchPostWithQuery;
+  handleSearchBarSubmit(query) {
+    this.props.fetchPostsWithQuery(query);
     this.props.history.push("/results");
-  };
+  }
 
   render() {
     return (

@@ -20,9 +20,9 @@ export function fetchPostsWithQuery(query) {
       .then((response) => {
         console.log(response.data.posts);
         // dispatch({
-        //   type: SET_RECENT_POSTS,
-        //   payload: response.data.posts,
-        // });
+        // //   type: SET_RECENT_POSTS,
+        // //   payload: response.data.posts,
+        // // });
       });
   };
 }
