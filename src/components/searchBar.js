@@ -12,7 +12,7 @@ class SearchBar extends Component {
     return (
       <input
         type="text"
-        placeholder="&#xf002;Search DailySmarty"
+        placeholder="&#xf002;   Search DailySmarty"
         {...field.input}
       />
     );

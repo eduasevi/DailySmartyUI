@@ -41,5 +41,23 @@
   }
 
   .result-post__links {
+    // display: flex;
+  }
+}
+
+.post-link {
+  min-width: 70px;
+  display: flex;
+
+  .post-link__bo {
+    min-width: 70px;
+    background-color: $color-grey-three;
+    margin-right: 16px;
+  }
+
+  .post-link__link {
+    color: $color-grey-one;
+    font-size: 14px;
+    line-height: 17px;
   }
 }
